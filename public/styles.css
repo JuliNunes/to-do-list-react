@@ -1,0 +1,32 @@
+body,
+html {
+  font-family: sans-serif;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 20%;
+  height: 20px;
+  padding: 5px 5px 5px 20px;
+}
+
+.item li {
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+.item:nth-child(even) {
+  background-color: gray;
+}
+
+.item:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.item p {
+  position: relative;
+  top: -15px;
+  cursor: pointer;
+}
